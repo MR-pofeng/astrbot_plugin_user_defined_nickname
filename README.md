@@ -1,9 +1,10 @@
-# helloworld
+# NickName
 
-AstrBot 插件模板
+由于QQ官方机器人无法获取用户名，本插件由此而生，提供用户自定义nickname并添加到大模型请求中
 
-A template plugin for AstrBot plugin feature
+# 用法
 
-# 支持
-
-[帮助文档](https://astrbot.app)
+1. 打开配置文件中的启动识别群员
+2. 使用指令/nickname来自定义自己的用户名，插件会自动获取你的ID与其绑定，随后检测到你的信息会自动处理
+3. /nickname_list可以查看存储的数据
+4. /nickname_del会删除你的ID绑定用户名
